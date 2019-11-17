@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.telegram.wiki-random-page-bot'
-version '1.0-SNAPSHOT'
+version version
 
 sourceCompatibility = 1.8
 
