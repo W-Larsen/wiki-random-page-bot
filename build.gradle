@@ -1,9 +1,14 @@
 plugins {
     id 'java'
+    id 'org.springframework.boot' version '2.1.6.RELEASE'
 }
 
 group 'com.telegram.wiki-random-page-bot'
 version version
+
+springBoot {
+    mainClassName = "com.telegram.wrp.WikiRandomPageBotInit"
+}
 
 sourceCompatibility = 1.8
 
